@@ -1,0 +1,430 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Parralaz Space Site</title>
+<link rel="stylesheet" title="Disabled for Preview-in-Browser: css/reset.css" type="text/css" />
+<style type="text/css">
+
+html{
+	color      : #000;
+	background : #FFF;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{
+	margin  : 0;
+	padding : 0;
+}
+
+table{
+	border-collapse : collapse;
+	border-spacing  : 0;
+}
+
+fieldset,img{
+	border : 0;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{
+	font-style  : inherit;
+	font-weight : inherit;
+}
+/*
+del,ins{
+	text-decoration : none;
+}
+*/
+li{
+	list-style : none;
+}
+/*
+caption,th{
+	text-align : left;
+}
+*/
+h1,h2,h3,h4,h5,h6{
+	font-size  : 100%;
+	font-weight : normal;
+}
+
+q:before,q:after{
+	content : '';
+}
+
+abbr,acronym{
+	border       : 0;
+	font-variant : normal;
+}
+
+sup{
+	vertical-align : baseline;
+}
+
+sub{
+	vertical-align : baseline;
+}
+
+legend{
+	color : inherit;
+}
+
+input,button,textarea,select,optgroup,option{
+	font-family : inherit;
+	font-size   : inherit;
+	font-style  : inherit;
+	font-weight : inherit;
+}
+
+input,button,textarea,select{
+	*font-size : 100%;
+}
+
+input {
+        background : -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#FFF));
+}
+
+
+</style>
+<link rel="stylesheet" title="Disabled for Preview-in-Browser: css/chrome.css" type="text/css" />
+<style type="text/css">
+
+body {
+	width  : 100%;
+	height : 100%;
+}
+
+body {
+	margin      : 0px;
+	min-width   : 1080px;
+	padding     : 0px;
+	font-family : "Caecilia-Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	overflow-x  : hidden;
+}
+
+#content {
+	position : fixed;
+	top      : 0px;
+	left     : 0px;
+	width    : 100%;
+	height   : 100%;
+}
+
+a { 
+	color           : #6C6;
+	text-decoration : none;
+}
+
+a:hover {
+	text-decoration : underline;
+}
+
+p {
+	margin      : 0 0 20px 0;
+	font-size   : 13px;
+	line-height : 24px;
+}
+
+p, ul {
+	font-family      : "Caecilia-Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-weight      : 200;
+	font-style       : normal;
+	list-style       : none;
+}
+
+#header ul li {
+	width      : 325px;
+	height     : 50px;
+	float      : left;
+	text-align : center;
+}
+
+#header ul {
+	padding: 0;
+}
+
+img {
+	border: 0;
+}
+
+h1 {
+	font-family      : "Caecilia-RomanSC", Verdana, serif;
+	font-weight      : bold;
+	font-style       : normal;
+}
+
+h2 {
+	font-family : "Caecilia-RomanSC", Verdana, sans-serif;
+	font-size   : 30px; 
+	font-weight : bold;
+	line-height : 80px;
+}
+
+h3 {
+	font-family : "Caecilia-Roman", Verdana, sans-serif;
+	font-size   : 16px;
+	font-weight : bold;
+	margin      : 1em 0;
+}
+
+h3.caseStudy {
+	cursor : pointer;
+}
+
+.video {
+	overflow : hidden;
+}
+
+
+section {
+	min-height : 500px;
+	min-height : 100%;
+	width      : 100%;
+	position   : absolute;
+	overflow   : hidden;
+	visibility : hidden;
+}
+
+section .story {
+	position      : relative;
+	z-index       : 1;
+	width         : 500px;
+	padding-right : 450px;
+	margin        : 20px auto 0 auto;
+}
+
+div.caption {
+	padding-bottom : 30px;
+	font-size      : 13px;
+}
+
+/* default section show / hide animations */
+section.start {
+	top : 100%;
+}
+
+section.focus, section.to {
+	bottom : 0%;
+}
+
+section.end {
+	bottom : 100%;
+}
+
+/* default background image animation */
+
+section .bg {
+	position : absolute;
+	left     : 0px;
+	top      : 0%;
+}
+
+section .bg.start {
+	top : -50%;
+}
+
+section .bg, section .bg.focus, section .bg.to {
+	top : 0%;
+}
+
+section .bg.end {
+	top : 50%;
+}
+
+/* Side Nav */
+ul#nav {
+	position : fixed;
+	left     : 5%;
+	top      : 20%;
+	z-index  : 999;
+}
+
+ul#nav li {
+	height   : 20px;
+	position : relative;
+}
+
+ul#nav a {
+	display     : block;
+	width       : 20px;
+	height      : 20px;
+	background  : url('img/grey-dot.png') 0 100% no-repeat;
+	text-indent : -9000px;
+	overflow    : hidden;
+	outline     : none;
+}
+
+ul#nav a:hover, nav#main li.active a {
+	background : url('img/grey-pink-dot.png') 0 100% no-repeat;
+}
+
+ul#nav h1 {
+	display     : none;
+	opacity     : 0;
+	position    : absolute;
+	left        : 15px;
+	top         : 0px;
+	white-space : nowrap;
+	padding     : 0 0 0 18px;
+	background  : url('img/menu-arrow.png') 0 50% no-repeat;
+	overflow    : hidden;
+	margin      : 0;
+	font-size   : 16px;
+}
+
+ul#nav span {
+	display            : block;
+	background         : url('img/menu-bg.png') repeat-x;
+	color              : #FFF;
+	padding            : 4px 8px;
+	white-space        : nowrap;
+	-moz-border-radius : 10px;
+	border-radius      : 10px;
+}
+
+#fancybox-left #fancybox-left-ico {
+	left : -40px;
+}
+
+#fancybox-right #fancybox-right-ico {
+	left  : auto;
+	right : -40px;
+}
+
+.video-js-box.vjs-fullscreen {
+	height : auto !important;
+}
+
+</style>
+<link rel="stylesheet" title="Disabled for Preview-in-Browser: css/style.css" type="text/css" />
+<style type="text/css">
+
+
+.homeCopy {
+	color:#333;	
+}
+h2 {
+	color:#FFF;	
+}
+p {
+	color:#FFF;	
+}
+.box2 {
+	background-color:#000;
+	opacity:0.6;
+	padding:20px;	
+}
+section {
+	height:100% !important;	
+	padding:20px;
+}
+@media screen and (max-width:500px) {
+	.box2 {
+		width:80% !important;	
+	}
+}
+
+</style>
+</head>
+
+<body class="section-intel">
+
+	<!-- this is to make the page's vertical scrollbar appear the correct height -->
+	<div id="mock-scroller" ></div>
+	<ul id="nav"></ul>
+
+	<div id="content">
+		<section id="story-header">
+			<div class="story">
+				<div id="logo">
+					<img src="img/razorfish-logo.png" width="184" height="32">
+				</div>
+
+				<h2 class="homeCopy">First Pane</h2>
+				<p class="homeCopy">This is the first slide.  Nothing much to see, just pointing it out.</p>
+				<p class="homeCopy">Scroll Down</p>
+			</div>
+		</section>
+
+
+		<section id="story-intel" anim-pause="1000">
+			<img class="bg animate" src="img/2.jpg" anim-detached="true" />
+			<div class="story">
+				<div>
+					<h2>Background parallax + Pause</h2>
+					<p>
+						You'll notice that this page "locks" for a while.  This feature is optional and the pause length can be controlled.
+					</p>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="story-william">
+			<img class="bg animate" src="img/1.jpg" anim-detached="true" />
+			<div class="story">
+				<div>
+					<h2>Background parallax</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula aliquam eros a tempus. Aenean sodales dictum augue, in faucibus nisi sollicitudin eu. Quisque et urna lacus, quis aliquam purus. Nulla semper arcu vel diam auctor condimentum. Nam molestie sem eu quam fermentum a tempus nisi aliquet. Maecenas sit amet tincidunt elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce nec ipsum ac mauris imperdiet luctus sed vitae ligula. Phasellus nec hendrerit neque.
+					</p>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="story-bing">
+			<img class="bg animate" src="img/3.jpg" anim-detached="true" />
+			<div class="story">
+				<div class="box2">
+					<h2>Background parallax</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula aliquam eros a tempus. Aenean sodales dictum augue, in faucibus nisi sollicitudin eu. Quisque et urna lacus, quis aliquam purus. Nulla semper arcu vel diam auctor condimentum. Nam molestie sem eu quam fermentum a tempus nisi aliquet. Maecenas sit amet tincidunt elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce nec ipsum ac mauris imperdiet luctus sed vitae ligula. Phasellus nec hendrerit neque.
+					</p>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="story-nike" data-nav="Nike">
+			<ul class="slide slide-1 animate" anim-detached="true">
+				<li><img src="img/Thumb0.jpg" width="317" height="176"></li><li><img src="img/Thumb2.jpg" width="317" height="176"></li><li><img src="img/Thumb3.jpg" width="317" height="176"></li><li><img src="img/Thumb4.jpg" width="317" height="176"></li><li><img src="img/Thumb5.jpg" width="317" height="176"></li><li><img src="img/Thumb6.jpg" width="317" height="176"></li><li><img src="img/Thumb7.jpg" width="317" height="176"></li><li><img src="img/Thumb8.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-8.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-0.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-1.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-2.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-3.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-4.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-5.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-6.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-7.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-8.jpg" width="317" height="176"></li>
+			</ul>
+			<ul class="slide slide-2 animate" anim-detached="true">
+				<li><img src="img/Thumb0.jpg" width="317" height="176"></li><li><img src="img/Thumb2.jpg" width="317" height="176"></li><li><img src="img/Thumb3.jpg" width="317" height="176"></li><li><img src="img/Thumb4.jpg" width="317" height="176"></li><li><img src="img/Thumb5.jpg" width="317" height="176"></li><li><img src="img/Thumb6.jpg" width="317" height="176"></li><li><img src="img/Thumb7.jpg" width="317" height="176"></li><li><img src="img/Thumb8.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-8.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-0.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-1.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-2.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-3.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-4.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-5.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-6.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-7.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-8.jpg" width="317" height="176"></li>
+			</ul>
+			<ul class="slide slide-3 animate" anim-detached="true">
+				<li><img src="img/Thumb0.jpg" width="317" height="176"></li><li><img src="img/Thumb2.jpg" width="317" height="176"></li><li><img src="img/Thumb3.jpg" width="317" height="176"></li><li><img src="img/Thumb4.jpg" width="317" height="176"></li><li><img src="img/Thumb5.jpg" width="317" height="176"></li><li><img src="img/Thumb6.jpg" width="317" height="176"></li><li><img src="img/Thumb7.jpg" width="317" height="176"></li><li><img src="img/Thumb8.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-8.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-0.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-1.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-2.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-3.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-4.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-5.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-6.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-7.jpg" width="317" height="176"></li><li><img src="img/nike/thumb-8.jpg" width="317" height="176"></li>
+			</ul>
+
+			<div class="story">
+				<div class="box"></div>
+				<img class="logo animate" src="img/nike.png" anim-detached="true" width="316" height="80" />
+				<div>
+					<h2>Page done for nike</h2>
+					<h3>Some parallax</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula aliquam eros a tempus. Aenean sodales dictum augue, in faucibus nisi sollicitudin eu. Quisque et urna lacus, quis aliquam purus. Nulla semper arcu vel diam auctor condimentum. Nam molestie sem eu quam fermentum a tempus nisi aliquet. Maecenas sit amet tincidunt elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce nec ipsum ac mauris imperdiet luctus sed vitae ligula. Phasellus nec hendrerit neque.
+					</p>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="story-foo" anim-pause="500">
+			<div class="story">
+				<h2>Misc. Stuff</h2>
+				<p>Some more parallax stuff.</p>
+			</div>
+		</section>
+	</div>
+
+<!-- All Scripts Loaded Below -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js" type="text/javascript"></script>
+<script src="js/backgrounds.js" type="text/javascript"></script>
+<script src="js/side-nav.js" type="text/javascript"></script>
+<script src="js/backgrounds.js" type="text/javascript"></script>
+<script src="js/kinetics.js" type="text/javascript"></script>
+<!---- Load Parralax Last ---------->
+<script src="js/parralax.js" type="text/javascript"></script>
+</body>
+</html>
