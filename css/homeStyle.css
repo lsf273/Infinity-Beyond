@@ -41,7 +41,7 @@ header a, a:visited {
 	left:0;	
 	z-index:6;
 }
-.pageWrap {
+.page-wrap {
 	width:100%;
 	background-color:#FFF;
 	position:absolute;
@@ -49,35 +49,35 @@ header a, a:visited {
 	left:0;
 	z-index:6;
 }
-.planetWrap {
+.planet-wrap {
 	width:200px;
 	padding:10px;
 	position:absolute;
 	top:-50px;
 	left:6%;
 }
-.shuttleWrap {
+.shuttle-wrap {
 	width:200px;
 	padding:10px;
 	position:absolute;
 	top:-125px;
 	left:41%;
 }
-.cloudWrap {
+.cloud-wrap {
 	width:200px;
 	padding:10px;
 	position:absolute;
 	top:145px;
 	left:24%;
 }
-.nebulaWrap {
+.nebula-wrap {
 	width:200px;
 	padding:10px;
 	position:absolute;
 	top:120px;
 	left:59%;
 }
-.galaxyWrap {
+.galaxy-wrap {
 	width:200px;
 	padding:10px;
 	position:absolute;
@@ -112,24 +112,24 @@ header a, a:visited {
   width: 150px;
   height: auto;
 }
-.pageWrap a {
+.page-wrap a {
 	color:#FFF;
 	text-decoration:none;	
 }
-.pageWrap a:hover {
+.page-wrap a:hover {
 	color:#09f;	
 }
 .myButton {
 	z-index:10;	
 }
-.formContainer {
+.form-Container {
 	position: absolute;
 	top: 0;
 	right:-380px;
 	width:380px;
 	height:100%;
 }
-.contactForm {
+.contact-form {
 	z-index:10;
 	background-color:#DDF0F8;
 	position:absolute;
@@ -141,13 +141,13 @@ header a, a:visited {
   height: 100%;
   width: 100%;
 }
-.contactBtn {
+.contact-btn {
 	position:absolute;
 	top:85px;
 	margin-left: -90px;
 	z-index:6;
 }
-.contactForm h2 {
+.contact-form h2 {
 	color:#FFF;
 	font-size:32px;
 	font-family:Arial, Helvetica, sans-serif;	

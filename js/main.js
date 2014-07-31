@@ -2,89 +2,89 @@
  $(document).ready(function() {
 	 
 	 //HomePage
-	 $('.contactBtn').hover(
+	 $('.contactBtn', ).hover(
 		 function()
 		 {
-			$('.contactBtn').animate({
+			$('.contact-btn').animate({
 			width: "95",  
 	        }, 500);
 		 },
 		 function()
 		 {
-			$('.contactBtn').animate({
+			$('.contact-btn').animate({
 			width: "90", 
 			}, 500);
 	  });
 	  $('.planet').hover(
 		 function()
 		 {
-			$('.planetUnderline').animate({
+			$('.planet-underline').animate({
 				width: "220",  
 	        }, 500);
 		 },
 		 function()
 		 {
-			$('.planetUnderline').animate({
+			$('.planet-underline').animate({
 			width: "200", 
 			}, 500);
 	  	});
 	  $('.shuttle').hover(
 		 function()
 		 {
-			$('.shuttleUnderline').animate({
+			$('.shuttle-underline').animate({
 			width: "220",  
 	        }, 500);
 		 },
 		 function()
 		 {
-			$('.shuttleUnderline').animate({
+			$('.shuttle-underline').animate({
 			width: "200", 
 			}, 500);
 	  });
 	  $('.greyMatter').hover(
 		 function()
 		 {
-			$('.cloudUnderline').animate({
+			$('.cloud-underline').animate({
 			width: "220",  
 	        }, 500);
 		 },
 		 function()
 		 {
-			$('.cloudUnderline').animate({
+			$('.cloud-underline').animate({
 			width: 200, 
 			}, 500);
 	  	});
-	  $('.nebulas').hover(function() {
-			$('.nebulaUnderline').animate({
+	  $('.nebulas').ho-er(function() {
+			$('.nebula-underline').animate({
 				width: "220",  
 	        }, 500);
 		}, function() {
-			$('.nebulaUnderline').animate({
+			$('.nebula-underline').animate({
 				width: "200", 
 			}, 500);
 	  	});
 	  $('.galaxies').hover(
 		 function()
 		 {
-			$('.galaxyUnderline').animate({
+			$('.galaxy-underline').animate({
 			width: "220",  
 	        }, 500);
 		 },
 		 function()
 		 {
-			$('.galaxyUnderline').animate({
+			$('.galaxy-underline').animate({
 			width: "200", 
 			}, 500);
 	  });
 	  
 	  //Contact Page
 	  //$(".contactForm").hide();
-	  $(".contactBtn").click(function () {
+	  $(".contact-btn").click(function () {
 		console.log("Clicked"); 
-	  	var $formContainer = $('.formContainer'),
-	  		right = Number($formContainer.position().left) === 1259 ? 0 : -380;	  		
+	  	var $form-container = $(.form-container'),
+	  		right = Number($form-container.position().left) === 1259 ? 0 : -380;	  		
 
-		 $formContainer.animate({
+		 $form-container.animate({
 		 	right: right
 		 });
 	  });
