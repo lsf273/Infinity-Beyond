@@ -119,10 +119,7 @@ header a, a:visited {
 .page-wrap a:hover {
 	color:#09f;	
 }
-.myButton {
-	z-index:10;	
-}
-.form-Container {
+.form-container {
 	position: absolute;
 	top: 0;
 	right:-380px;
