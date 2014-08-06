@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
 	-webkit-box-sizing:border-box;	
 	-moz-box-sizing:border-box;	
@@ -346,3 +347,9 @@ body {
 	-webkit-animation:move-twink-back 200s linear infinite;
 	animation:move-twink-back 200s linear infinite;
 }
+=======
+section {
+	position: relative;
+	z-index: 3;
+}
+>>>>>>> FETCH_HEAD
