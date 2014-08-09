@@ -1,6 +1,6 @@
 
 
-.galaxy-section, .spiral-section, .venus-section, .earth-section, .mars-section, .jupiter-section, .saturn-section, .uranus-section, .neptune-section {
+.galaxy-section, .spiral-section, .barred-section, .earth-section, .mars-section, .jupiter-section, .saturn-section, .uranus-section, .neptune-section {
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -12,4 +12,55 @@
 }
 .spiral-section {
 	background-image:url(../img/spiral-bkg.jpg);
+}
+.barred-section {
+	background-image:url(../img/barred-bkg.jpg);
+}
+.ribbon-right {
+	position:absolute;
+	top:12px;
+	right:-48px;
+	height:auto;
+	width:420px;	
+}
+.ribbon-left {
+	position:absolute;
+	top:8px;
+	left:-42px;
+	height:auto;
+	width:420px;		
+}
+.ribbon-vid-wrap {
+	width:100%;
+	position:absolute;
+	left:0;
+	top:755px;
+	background-color:#FFF;	
+}
+.left-ribbon-top {
+	position:absolute;
+	left:-55px;
+	top:0;
+	width:420px;
+	height:auto;
+}
+.left-ribbon-bottom {
+	position:absolute;
+	left:-47px;
+	top:100px;
+	width:414px;
+	height:auto;
+}
+.galaxy-video {
+	position:absolute;
+	top:-43px;
+	left:427px;	
+	height:285px;
+	width:500px;
+}
+.barred-footer-ribbon {
+	position:absolute;
+	top:1013px;
+	left:175px;	
+	
 }
