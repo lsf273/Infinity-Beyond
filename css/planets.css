@@ -65,7 +65,7 @@ body {
 }
 .title-bkg {
 	height:60px;
-	width:275px;
+	width:319px;
 	background-color:#000;
 	opacity:0.7;
 	padding-top:1px;
@@ -137,7 +137,6 @@ body {
 	background-color:#000;
 	opacity:0.7;
 	padding:20px;	
-	margin-right:20px;	
 }
 .sub-copy-box h4, .planets-sub-copy-box h4, .sub-copy-box-flip h4 {
 	color:#FFF;	

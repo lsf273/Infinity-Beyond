@@ -1,6 +1,6 @@
 
 
-.galaxy-section, .spiral-section, .barred-section, .earth-section, .mars-section, .jupiter-section, .saturn-section, .uranus-section, .neptune-section {
+.galaxy-section, .spiral-section, .barred-section, .cluster-section, .elliptical-section, .jupiter-section, .saturn-section, .uranus-section, .neptune-section {
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -15,6 +15,12 @@
 }
 .barred-section {
 	background-image:url(../img/barred-bkg.jpg);
+}
+.cluster-section {
+	background-image:url(../img/clusters-bkg.jpg);
+}
+.elliptical-section {
+	background-image:url(../img/elliptical-bkg.jpg);
 }
 .ribbon-right {
 	position:absolute;
@@ -58,9 +64,16 @@
 	height:285px;
 	width:500px;
 }
+.elliptical-video {
+	position:absolute;
+	top:0;
+	left:30px;	
+	height:256px;
+	width:388px;
+}
 .barred-footer-ribbon {
 	position:absolute;
-	top:1013px;
+	top:1045px;
 	left:175px;	
 	
 }
