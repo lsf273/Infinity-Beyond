@@ -1,0 +1,15 @@
+
+
+.galaxy-section, .spiral-section, .venus-section, .earth-section, .mars-section, .jupiter-section, .saturn-section, .uranus-section, .neptune-section {
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-position:center; 
+}
+.galaxy-section {
+	background-image:url(../img/galaxy-bkg.jpg);
+}
+.spiral-section {
+	background-image:url(../img/spiral-bkg.jpg);
+}
