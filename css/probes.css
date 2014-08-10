@@ -1,0 +1,31 @@
+.probes-section, .mars-express-section, .opportunity-section, .galileo-section, .near-section, .viking-section, .horizons-section, .voyager-section {
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-position:center; 
+}
+.probes-section {
+	background-image:url(../img/probes-bkg.jpg);
+}
+.mars-express-section {
+	background-image:url(../img/mars-express-bkg.jpg);
+}
+.opportunity-section {
+	background-image:url(../img/opportunity-bkg.jpg);
+}
+.galileo-section {
+	background-image:url(../img/galileo-bkg.jpg);
+}
+.near-section {
+	background-image:url(../img/near-bkg.jpg);
+}
+.viking-section {
+	background-image:url(../img/viking-bkg.jpg);
+}
+.horizons-section {
+	background-image:url(../img/horizons-bkg.jpg);
+}
+.voyager-section {
+	background-image:url(../img/voyager-bkg.jpg);
+}
