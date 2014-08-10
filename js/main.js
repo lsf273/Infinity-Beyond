@@ -12,43 +12,31 @@
 				width: 90, 
 			}, 500);
 	  });
-	  $('.planet').hover(
-		 function()
-		 {
+	  $('.planet').hover(function() {
 			$('.planet-underline').animate({
 				width: '220',  
 	        }, 500);
-		 },
-		 function()
-		 {
+		 }, function() {
 			$('.planet-underline').animate({
-			width: '200', 
+				width: '200', 
 			}, 500);
 	  	});
-	  $('.shuttle').hover(
-		 function()
-		 {
+	  $('.shuttle').hover(function() {
 			$('.shuttle-underline').animate({
-			width: '220',  
+				width: '220',  
 	        }, 500);
-		 },
-		 function()
-		 {
+		 }, function() {
 			$('.shuttle-underline').animate({
-			width: '200', 
+				width: '200', 
 			}, 500);
 	  });
-	  $('.greyMatter').hover(
-		 function()
-		 {
+	  $('.greyMatter').hover(function() {
 			$('.cloud-underline').animate({
-			width: '220',  
+				width: '220',  
 	        }, 500);
-		 },
-		 function()
-		 {
+		 }, function() {
 			$('.cloud-underline').animate({
-			width: 200, 
+				width: 200, 
 			}, 500);
 	  	});
 	  $('.nebulas').hover(function() {
@@ -60,17 +48,13 @@
 				width: '200', 
 			}, 500);
 	  	});
-	  $('.galaxies').hover(
-		 function()
-		 {
+	  $('.galaxies').hover(function() {
 			$('.galaxy-underline').animate({
-			width: '220',  
+				width: '220',  
 	        }, 500);
-		 },
-		 function()
-		 {
+		 },function() {
 			$('.galaxy-underline').animate({
-			width: '200', 
+				width: '200', 
 			}, 500);
 	  });
 	  

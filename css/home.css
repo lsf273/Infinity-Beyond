@@ -160,10 +160,9 @@ header a, a:visited {
 	width:228px;
 }
 
-<<<<<<< HEAD:css/home-style.css
-<!-- End Main CSS -->
+/* End Main CSS */
 
-<!-- Start Twinkling Stars -->
+/* Start Twinkling Stars */
 @keyframes move-twink-back {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
@@ -188,15 +187,13 @@ header a, a:visited {
   right:0;
   bottom:0;
   width:100%;
-  height:1024px;
+  height:100%;
   display:block;
 }
-
 .stars {
   background:#000 url(../img/stars.png) repeat;
   z-index:0;
 }
-
 .twinkling{
   background:transparent url(../img/twinkling.png) repeat top center;
   z-index:1;
@@ -207,19 +204,14 @@ header a, a:visited {
   -webkit-animation:move-twink-back 200s linear infinite;
   animation:move-twink-back 200s linear infinite;
 }
-=======
->>>>>>> FETCH_HEAD:css/home.css
-
 .earth {
-  /*background:	 url(../img/Earth2.png) no-repeat top center;*/
-  position: absolute;
-  top: 0;
-  left: 0;
+  position:absolute;
+  left:0;
+  bottom:0;
   width: 100%;
   height: auto;
-	z-index:5;
+  z-index:5;
 }
-
 .elegant-aero {
     width: 340px;
     margin-right: auto;
