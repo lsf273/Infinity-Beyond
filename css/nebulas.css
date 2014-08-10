@@ -1,1 +1,34 @@
 
+.nebulas-section, .crab-nebula-section, .eagle-nebula-section, .horse-nebula-section, .messier78-nebula-section, .tarantula-nebula-section {
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-position:center; 
+}
+.nebulas-section {
+	background-image:url(../img/nebulas-bkg.jpg);
+}
+.crab-nebula-section {
+	background-image:url(../img/crab-nebula-bkg.jpg);
+}
+.eagle-nebula-section {
+	background-image:url(../img/eagle-nebula-bkg.jpg);
+}
+.horse-nebula-section {
+	background-image:url(../img/horse-nebula-bkg.jpg);
+}
+.messier78-nebula-section {
+	background-image:url(../img/messier78-nebula-bkg.jpg);
+}
+.tarantula-nebula-section {
+	background-image:url(../img/tarantula-nebula-bkg.jpg);
+}
+
+.main-ribbon-footer {
+	position:absolute;
+	top:770px;
+	left:-44px;
+	width:1049px;
+	height:auto;	
+}
