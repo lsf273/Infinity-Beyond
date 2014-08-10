@@ -130,7 +130,7 @@ header a, a:visited {
 	background-color:#DDF0F8;
 	position:absolute;
 	top:0;	
-	padding:20px 0 0 20px;
+	padding:20px 0 0 0;
 	-webkit-box-shadow: -7px 0px 29px 0px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow:    -7px 0px 29px 0px rgba(0, 0, 0, 0.75);
 	-box-shadow:    -7px 0px 29px 0px rgba(0, 0, 0, 0.75);
@@ -150,40 +150,16 @@ header a, a:visited {
 	text-align:center;
 	margin-top:20px;
 }
-.asteroid {
-	-webkit-animation-duration: 3s;
-  -webkit-animation-name: shoot;
-  animation-duration: 3s;
-  animation-name: shoot;
-  z-index:10;
-  position:absolute;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;  
+.form-msg {
+	font-size:11px;
+	color:#666;
+	margin-top:20px;
+	line-height:1.6em;	
+}
+.select-option {
+	width:228px;
 }
 
-/*@-webkit-keyframes shoot {
-  0% {
-	top: 0;
-    right: 0; 
-  }
-  25% {
-	  top: 25%;
-	  right: 25%;
-  }
-  50% {
-	  top: 50%;
-	  right: 50%;
-  }
-  75% {
-	  bottom: 25%;
-	  left: 25%;
-  }
-
-  100% {
-    bottom: 0;
-    left: 0;
-  }
-}*/
 <<<<<<< HEAD:css/home-style.css
 <!-- End Main CSS -->
 
@@ -250,8 +226,6 @@ header a, a:visited {
     margin-left: auto;
     background: #DDF0F8;
     padding: 30px 30px 20px 30px;
-    box-shadow: #868686 0 0px 10px -1px;
-    -webkit-box-shadow: #868686 0 0px 10px -1px;
     font: 12px Arial, Helvetica, sans-serif;
     color: #666;
 }

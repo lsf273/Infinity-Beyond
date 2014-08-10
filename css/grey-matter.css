@@ -1,0 +1,19 @@
+.grey-matter-section, .black-holes-section, .spectral-section, .lightspeed-section {
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-position:center; 
+}
+.grey-matter-section {
+	background-image:url(../img/grey-matter-bkg.jpg);
+}
+.black-holes-section {
+	background-image:url(../img/black-whole-bkg.jpg);
+}
+.spectral-section {
+	background-image:url(../img/spectral-bkg.jpg);
+}
+.lightspeed-section {
+	background-image:url(../img/lightspeed-bkg.jpg);
+}
