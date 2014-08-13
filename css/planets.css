@@ -1,12 +1,3 @@
-* {
-	-webkit-box-sizing:border-box;	
-	-moz-box-sizing:border-box;	
-	box-sizing:border-box;	
-}
-html {
-	padding:0;
-	margin:0;	
-}
 body {
 	height:100%;
 	margin:0;
@@ -21,38 +12,32 @@ body {
 	margin:0 auto;	
 	z-index:3 !important;
 }
-.sun-section, .mercury-section, .venus-section, .earth-section, .mars-section, .jupiter-section, .saturn-section, .uranus-section, .neptune-section {
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-	background-position:center; 
-}
-.sun-section {
+
+#sun {
 	background-image:url(../img/sun-bkg.jpg);
 }
-.mercury-section {
+#mercury {
 	background-image:url(../img/mercury-bkg.jpg);
 }
-.venus-section {
+#venus {
 	background-image:url(../img/venus-bkg.jpg);
 }
-.earth-section {
+#earth {
 	background-image:url(../img/earth-bkg.jpg);
 }
-.mars-section {
+#mars {
 	background-image:url(../img/mars-bkg.jpg);
 }
-.jupiter-section {
+#jupiter {
 	background-image:url(../img/jupiter-bkg.jpg);
 }
-.saturn-section {
+#saturn {
 	background-image:url(../img/saturn-bkg.jpg);
 }
-.uranus-section {
+#uranus {
 	background-image:url(../img/uranus-bkg.jpg);
 }
-.neptune-section {
+#neptune {
 	background-image:url(../img/neptune-bkg.jpg);
 }
 
@@ -310,49 +295,4 @@ body {
 	position:absolute;
 	top:20px;
 	left:700px;	
-}
-
-<!-- Start Twinkling Stars -->
-@keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
-@-webkit-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
-@-moz-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
-@-ms-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
-
-.stars, .twinkling {
-  	position:absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	width:100%;
-	height:100%;
-	display:block;
-}
-
-.stars {
-	background:#000 url(../img/stars.png) repeat;
-	z-index:0;
-}
-
-.twinkling{
-	background:transparent url(../img/twinkling.png) repeat top center;
-	z-index:1;
-	
-	-moz-animation:move-twink-back 200s linear infinite;
-	-ms-animation:move-twink-back 200s linear infinite;
-	-o-animation:move-twink-back 200s linear infinite;
-	-webkit-animation:move-twink-back 200s linear infinite;
-	animation:move-twink-back 200s linear infinite;
 }
