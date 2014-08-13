@@ -137,6 +137,9 @@ header a, a:visited {
   height: 100%;
   width: 100%;
 }
+.message {
+	resize:none;
+}
 .contact-btn {
 	position:absolute;
 	top:85px;
