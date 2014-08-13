@@ -1,0 +1,166 @@
+
+.container {
+	position:relative;
+	top:0;
+	width:960px;
+	background-color:#FFF;
+	margin:0 auto;	
+	z-index:3 !important;
+}
+#sun {
+	background-image:url(../img/sun-bkg.jpg);
+}
+#mercury {
+	background-image:url(../img/mercury-bkg.jpg);
+}
+#venus {
+	background-image:url(../img/venus-bkg.jpg);
+}
+#earth {
+	background-image:url(../img/earth-bkg.jpg);
+}
+#mars {
+	background-image:url(../img/mars-bkg.jpg);
+}
+#jupiter {
+	background-image:url(../img/jupiter-bkg.jpg);
+}
+#saturn {
+	background-image:url(../img/saturn-bkg.jpg);
+}
+#uranus {
+	background-image:url(../img/uranus-bkg.jpg);
+}
+#neptune {
+	background-image:url(../img/neptune-bkg.jpg);
+}
+
+.sun-ribbon {
+	position:absolute;
+	top:762px;
+	left:-32px;	
+	width:1023px;
+	height:200px;
+}
+.temp-right {
+	position:absolute;
+	top:10px;
+	left:535px;	
+	z-index:2;
+	width:110px; 
+	height:auto;
+}
+.ruler-right {
+	position:absolute;
+	top:10px;
+	left:666px;	
+	z-index:2;
+	width:85px;
+	height:auto;
+}
+.orbit-right {
+	position:absolute;
+	top:30px;
+	left:770px;	
+	z-index:2;
+	width:129px;
+	height:auto; 
+}
+.temp-left {
+	position:absolute;
+	top:10px;
+	left:50px;	
+	z-index:2;
+	width:110px; 
+	height:auto;
+}
+.ruler-left {
+	position:absolute;
+	top:10px;
+	left:175px;	
+	z-index:2;
+	width:85px;
+	height:auto;
+}
+.orbit-left {
+	position:absolute;
+	top:30px;
+	left:280px;	
+	z-index:2;
+	width:129px;
+	height:auto; 
+}
+.mercury-core, .venus-core {
+	position:absolute;
+	top:715px;
+	left:60px;	
+	width:800px;
+	height:auto;
+}
+.mercury-ribbon {
+	position:absolute;
+	top:1075px;
+	left:-32px;	
+	width:1023px;
+	height:200px;	
+}
+.jupiter-ribbon {
+	position:absolute;
+	top:1265px;
+	left:-32px;	
+	width:1023px;
+	height:200px;		
+}
+.moon-wrap {
+	width:100%;
+	opacity: 0.7;
+	position:absolute;
+	top:700px;
+	left:0;	
+}
+.moon-section-wrap {
+	width:100%;
+	opacity: 0.7;
+	position:absolute;
+	top:338px;
+	left:0;	
+}
+.moon-section {
+	width:237px;
+	display:inline-block;
+	background: #7d7e7d; /* Old browsers */
+	padding:15px;
+	background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+}
+.moon-section h5 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FFF;
+	margin:0;	
+}
+.europa {
+	position:absolute;
+	top:20px;
+	left:30px;	
+}
+.io {
+	position:absolute;
+	top:129px;
+	left:207px;	
+}
+.ganymede {
+	position:absolute;
+	top:97px;
+	left:426px;	
+}
+.titan {
+	position:absolute;
+	top:20px;
+	left:700px;	
+}
