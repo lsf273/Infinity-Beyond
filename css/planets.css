@@ -7,6 +7,13 @@
 	margin:0 auto;	
 	z-index:3 !important;
 }
+#sun, .mars-express-section, #mercury, #venus, .#earth, #mars, #jupiter, #saturn, #uranus, #neptune {
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-position:center; 
+}
 #sun {
 	background-image:url(../img/sun-bkg.jpg);
 }
