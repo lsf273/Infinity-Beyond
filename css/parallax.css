@@ -1,0 +1,162 @@
+body {
+	height: 100%;
+	margin:0;
+	padding:0;	
+	position:relative;
+}
+section {
+	height:100% !important;	
+	/*min-height: 100vh;*/
+	/*height: 1300px;*/
+	padding:0px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position:center;
+
+	position:relative;
+	top:0;
+	width:960px;
+	background-color:#FFF;
+	margin:0 auto;	
+	z-index:3 !important;
+}
+
+.title-wrap {
+	width:100%;
+	height:60px;
+	position:absolute;	
+	top:50px;
+	left:0;	
+}
+.title-bkg {
+	height:60px;
+	width:319px;
+	background-color:#000;
+	opacity:0.7;
+	padding-top:1px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.title {
+	position:absolute;
+	top:7px;
+	left:21px;
+	font-family: 'Roboto', sans-serif;
+	font-size:32px;
+	color:#a1f041;
+	margin:0;
+	z-index:2;
+}
+.view-bkg {
+	position:absolute;
+	top:0;
+	right:-16px;	
+}
+.main-copy-wrap {
+	width:100%;
+	height:220px;
+	position:absolute;	
+	top:150px;
+	left:0;
+}
+.main-copy-box {
+	width:750px;
+	height:250px;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#000;
+	opacity:0.7;	
+	padding:20px;
+}
+.badge {
+	position:absolute;
+	top:45px;
+	left:777px;	
+}
+.sub-copy-wrap {
+	width:100%;
+	position:absolute;	
+	top:430px;
+	left:0;
+	padding-right:20px;
+}
+.sub-copy-box {
+	width:460px;
+	height:255px;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#000;
+	opacity:0.7;
+	padding:20px;	
+	margin-right:20px;
+}
+.sub-copy-box-flip {
+	width:513px;
+	height:255px;
+	position:absolute;
+	top:0;
+	right:0;
+	background-color:#000;
+	opacity:0.7;
+	padding:20px;	
+}
+.sub-copy-box h4, .sub-copy-box h4, .sub-copy-box-flip h4 {
+	color:#FFF;	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	margin:0;
+}
+.sub-copy-box {
+	width:100%;	
+	height:255px;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#000;
+	opacity:0.7;
+	padding:20px;	
+}
+.main-copy-box p, .sub-copy-box p, .sub-copy-box p, .moon-section p, .sub-copy-box-flip p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFF;
+	line-height:1.6em;	
+}
+.facts-list {
+	color:#FFF;
+	padding:0 0 0 20px;	
+	line-height:1.6em;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.video {
+	position:absolute;
+	top:0;
+	left:490px;	
+	height:255px;
+	width:440px;
+}
+.footer-ribbon {
+	position:absolute;
+	bottom: 0;
+	left:-32px;	
+	width:1023px;
+	height:200px;
+}
+
+
+.copy-right {
+	width:460px;
+	height:255px;
+	position:absolute;
+	left:478px;
+	top:0;	
+	padding-top:20px;
+}
+
+
