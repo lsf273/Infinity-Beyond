@@ -83,12 +83,12 @@
 }
 .moon-info-wrap {
 	opacity: 0.7;
-	top:700px;
+	top:1027px;
 	width: 100%;
 }
 .moon-wrap {
 	opacity: 0.7;
-	top:338px;
+	top:685px;
 	width: 100%;
 }
 .moon-section {
@@ -115,18 +115,18 @@
 	display: inline-block;
 }
 .moon:nth-child(1) {
-	top:20px;
-	left:30px;
+	top:-87px;
+	left:83px;
 }
 .moon:nth-child(2) {
-	top:129px;
-	left:207px;	
+	top:8px;
+	left:97px;	
 }
 .moon:nth-child(3) {
-	top:97px;
-	left:426px;	/* SHRINK */
+	top:44px;
+	left:126px;	/* SHRINK */
 }
 .moon:nth-child(4) {
 	top:20px;
-	left:700px;	/* SHRINK */
+	left:122px;	/* SHRINK */
 }
