@@ -3,7 +3,7 @@ body {
 }
 body,html { overflow-x: hidden; }
 .container {
-	width:1024px;
+	width:960px;
 	margin:0 auto;
 	background-color:
 	#333;	
@@ -29,12 +29,10 @@ p {
 }
 .title {
 	height:42px;
-	width:200px;
 	opacity:0.6;
 	position:relative;
 	top:40px;
 	left:0;
-	text-align:center;
 }
 .title p {
 	font-size:28px;
