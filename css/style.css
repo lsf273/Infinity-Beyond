@@ -34,7 +34,7 @@ p {
 	top:40px;
 	left:0;
 }
-.title p {
+.title p, .light-header {
 	font-size:28px;
 	color:#0F0;
 	font-weight:bold;
