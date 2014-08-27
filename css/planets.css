@@ -28,10 +28,10 @@
 }
 .temp-right {
 	position:absolute;
-	top:10px;
+	top:13px;
 	left:535px;	
 	z-index:2;
-	width:110px; 
+	width:101px; 
 	height:auto;
 }
 .ruler-right {
@@ -39,7 +39,7 @@
 	top:10px;
 	left:666px;	
 	z-index:2;
-	width:85px;
+	width:80px;
 	height:auto;
 }
 .orbit-right {
@@ -52,10 +52,10 @@
 }
 .temp-left {
 	position:absolute;
-	top:10px;
+	top:14px;
 	left:50px;	
 	z-index:2;
-	width:110px; 
+	width:101px; 
 	height:auto;
 }
 .ruler-left {
@@ -63,7 +63,7 @@
 	top:10px;
 	left:175px;	
 	z-index:2;
-	width:85px;
+	width:80px;
 	height:auto;
 }
 .orbit-left {
@@ -74,7 +74,28 @@
 	width:129px;
 	height:auto; 
 }
-.mercury-core, .venus-core {
+.mercury-core {
+	position:absolute;
+	top:307px;
+	left:60px;	
+	width:800px;
+	height:auto;
+}
+.earth-core {
+	position:absolute;
+	top:747px;
+	left:60px;	
+	width:800px;
+	height:auto;
+}
+.mercury-footer-ribbon {
+	position:absolute;
+	bottom: -866px;
+	left:-32px;	
+	width:1023px;
+	height:200px;	
+}
+.venus-core {
 	position:absolute;
 	top:715px;
 	left:60px;	
@@ -87,12 +108,12 @@
 	width: 100%;
 }
 .moon-wrap {
-	opacity: 0.7;
 	top:685px;
 	width: 100%;
 }
 .moon-section {
 	width:237px;
+	height:161px;
 	display:inline-block;
 	background: #7d7e7d; /* Old browsers */
 	padding:15px;
@@ -104,19 +125,13 @@
 	background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
 }
-.moon-section h5 {
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:18px;
-	color:#FFF;
-	margin:0;	
-}
 .moon {
 	position:relative;
 	display: inline-block;
 }
 .moon:nth-child(1) {
 	top:-87px;
-	left:83px;
+	left:63px;
 }
 .moon:nth-child(2) {
 	top:8px;
@@ -124,9 +139,48 @@
 }
 .moon:nth-child(3) {
 	top:44px;
-	left:126px;	/* SHRINK */
+	left:106px;	/* SHRINK */
 }
 .moon:nth-child(4) {
 	top:20px;
-	left:122px;	/* SHRINK */
+	left:112px;	/* SHRINK */
+}
+.moon-copy-wrap {
+	position:absolute;
+	top:13px;
+	left:15px;
+	width:207px;
+	height:131px;
+	z-index:50;	
+}
+.moon-copy-wrap-2 {
+	position:absolute;
+	top:13px;
+	left:257px;
+	width:207px;
+	height:131px;
+	z-index:50;		
+}
+.moon-copy-wrap-3 {
+	position:absolute;
+	top:13px;
+	left:498px;
+	width:207px;
+	height:131px;
+	z-index:50;		
+}
+.moon-copy-wrap-4 {
+	position:absolute;
+	top:13px;
+	right:13px;
+	width:207px;
+	height:131px;
+	z-index:50;		
+}
+.mercury-footer-ribbon {
+	position:absolute;
+	bottom: -875px;
+	left:-44px;	
+	width:1049px;
+	height:200px;
 }
