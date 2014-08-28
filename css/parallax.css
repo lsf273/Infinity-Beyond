@@ -135,6 +135,9 @@ section {
 	padding:20px;	
 }
 .sub-copy-box-flip {
+	width:500px;
+}
+.sub-copy-box-flip {
 	top:0;
 	right:0;	
 }
