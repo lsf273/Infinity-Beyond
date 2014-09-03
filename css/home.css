@@ -48,38 +48,28 @@ header a, a:visited {
 	left:0;
 	z-index:6;
 }
-.planet-wrap {
+.planet-wrap, .shuttle-wrap, .cloud-wrap, .nebula-wrap, .galaxy-wrap {
 	width:200px;
 	padding:10px;
 	position:absolute;
+}
+.planet-wrap {
 	top:-50px;
 	left:6%;
 }
 .shuttle-wrap {
-	width:200px;
-	padding:10px;
-	position:absolute;
 	top:-125px;
 	left:41%;
 }
 .cloud-wrap {
-	width:200px;
-	padding:10px;
-	position:absolute;
 	top:145px;
 	left:24%;
 }
 .nebula-wrap {
-	width:200px;
-	padding:10px;
-	position:absolute;
 	top:120px;
 	left:59%;
 }
 .galaxy-wrap {
-	width:200px;
-	padding:10px;
-	position:absolute;
 	top:-31px;
 	left:76%;
 }

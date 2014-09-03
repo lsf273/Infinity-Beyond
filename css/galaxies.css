@@ -1,5 +1,4 @@
 
-
 .galaxy-section, .spiral-section, .barred-section, .cluster-section, .elliptical-section, .irregular-section {
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -25,82 +24,71 @@
 .irregular-section {
 	background-image:url(../img/irregular-bkg.jpg);	
 }
-.ribbon-right {
+.ribbon-right, .ribbon-left, .left-ribbon-top, .left-ribbon-bottom, .elliptical-footer-ribbon1, .irregular-footer-ribbon1 {
 	position:absolute;
+	height:auto;
+}
+.ribbon-vid-wrap, .galaxy-video, .elliptical-video, .barred-footer-ribbon, .elliptical-footer-ribbon2, .irregular-footer-ribbon2 {
+	position:absolute;
+}
+.ribbon-right {
 	top:12px;
 	right:-48px;
-	height:auto;
 	width:420px;	
 }
 .ribbon-left {
-	position:absolute;
 	top:8px;
 	left:-42px;
-	height:auto;
 	width:420px;		
 }
 .ribbon-vid-wrap {
 	width:100%;
-	position:absolute;
 	left:0;
 	top:755px;
 	background-color:#FFF;	
 }
 .left-ribbon-top {
-	position:absolute;
 	left:-55px;
 	top:0;
 	width:420px;
-	height:auto;
 }
 .left-ribbon-bottom {
-	position:absolute;
 	left:-47px;
 	top:100px;
 	width:414px;
-	height:auto;
 }
 .galaxy-video {
-	position:absolute;
 	top:-43px;
 	left:427px;	
 	height:285px;
 	width:500px;
 }
 .elliptical-video {
-	position:absolute;
 	top:0;
 	left:30px;	
 	height:256px;
 	width:388px;
 }
 .barred-footer-ribbon {
-	position:absolute;
 	top:1045px;
 	left:175px;	
 	
 }
 .elliptical-footer-ribbon1 {
-	position:absolute;
 	top:716px;
 	left:-35px;		
 	width:1057px;
-	height:auto;
 }
 .elliptical-footer-ribbon2 {
-	position:absolute;
 	top:845px;
 	left:291px;		
 }
 .irregular-footer-ribbon1 {
-	position:absolute;
 	top:716px;
 	left:-35px;		
 	width:1030px;
-	height:auto;
 }
 .irregular-footer-ribbon2 {
-	position:absolute;
 	top:845px;
 	left:288px;		
 }

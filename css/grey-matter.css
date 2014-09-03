@@ -17,46 +17,38 @@
 .lightspeed-section {
 	background-image:url(../img/lightspeed-bkg.jpg);
 }
-.grey-main-footer-ribbon {
+.grey-main-footer-ribbon, .black-hole-footer, .black-hole-chart, .spectral-chart, .spectral-footer-ribbon, .spectral-ribbon-1, .spectral-ribbon-2, .spectral-ribbon-3, .light-chart, .light-chart-2  {
 	position:absolute;
+	height:auto;		
+}
+.grey-main-footer-ribbon {
 	top:746px;
 	right:-46px;
 	width:1051px;
-	height:auto;		
 }
 .black-hole-footer {
-	position:absolute;
 	top:836px;
 	right:-35px;
 	width:1030px;
-	height:auto;		
 }
 .black-hole-chart {
-	position:absolute;
 	top:0px;
 	left:65px;
 	width:410px;
-	height:auto;
 }	
 .spectral-chart {
-	position:absolute;
 	top:807px;
 	left:91px;
 	z-index:1;	
 	width:760px;
-	height:auto;
 }
 .spectral-footer-ribbon {
-	position:absolute;
 	top:1241px;
 	left:-34px;
 	width:1047px;
-	height:auto;
 }
 .spectral-ribbon-1, .spectral-ribbon-2, .spectral-ribbon-3 {
-	position:absolute;
 	width:380px;
-	height:auto;	
 }
 .spectral-ribbon-1 {
 	top:-5px;
@@ -70,31 +62,28 @@
 	top:211px;
 	left:14px;
 }
-.light-video {
+.light-video, .light-header {
 	position:absolute;
+}
+.light-video {
 	top:0;
 	left:20px;
 	width:420px;
 	height:255px;
 }
 .light-chart {
-	position:absolute;
 	top:867px;
 	left:53px;
 	z-index:1;	
 	width:500px;
-	height:auto;
 }
 .light-chart-2 {
-	position:absolute;
 	top:867px;
 	right:85px;
 	z-index:1;	
 	width:250px;
-	height:auto;
 }
 .light-header {
-	position:absolute;
 	top:796px;
 	left:20px;
 	z-index:1;	

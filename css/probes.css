@@ -29,76 +29,65 @@
 .voyager-section {
 	background-image:url(../img/voyager-bkg.jpg);
 }
+
+.mars-express-ribbon-1, .near-ribbon-1, .new-horizons-ribbon-1, .mars-express-ribbon-2, .near-ribbon-2, .new-horizons-ribbon-2,
+.mars-express-ribbon-3, .near-ribbon-3, .new-horizons-ribbon-3, .mars-express-footer-ribbon, .viking-footer-ribbon, .voyager-footer-ribbon,
+.mars-express-footer-ribbon-2, .viking-footer-ribbon-2, .voyager-footer-ribbon-2, .distances-driven, .galileo-footer-ribbon, .near-footer-ribbon,
+.new-horizons-footer, .viking-chart, .probes-main-ribbon-footer {
+	position:absolute;	
+	height:auto;
+}
+
 .mars-express-ribbon-1, .near-ribbon-1, .new-horizons-ribbon-1 {
-	position:absolute;
 	top:-10px;
 	left:-32px;
 	width:460px;
-	height:auto;
 }
 .mars-express-ribbon-2, .near-ribbon-2, .new-horizons-ribbon-2 {
-	position:absolute;
 	top:78px;
 	left:-32px;
 	width:460px;
-	height:auto;
 }
 .mars-express-ribbon-3, .near-ribbon-3, .new-horizons-ribbon-3 {
-	position:absolute;
 	top:167px;
 	left:-32px;
 	width:460px;
-	height:auto;
 }
 .near-ribbon-3, .new-horizons-ribbon-3 {
 	left:-30px !important;	
 }
 .mars-express-footer-ribbon, .viking-footer-ribbon, .voyager-footer-ribbon {
-	position:absolute;
 	top:733px;
 	left:-36px;
 	width:1033px;
-	height:auto;
 }
 .mars-express-footer-ribbon-2, .viking-footer-ribbon-2, .voyager-footer-ribbon-2 {
-	position:absolute;
 	top:867px;
 	right:-47px;
 	width:460px;
-	height:auto;
 }
 .distances-driven {
-	position:absolute;
 	top:0px;
 	right:20px;
 	width:460px;
-	height:auto;
 }
 .galileo-footer-ribbon, .near-footer-ribbon {
-	position:absolute;
 	top:733px;
 	left:-36px;
 	width:1029px;
-	height:auto;	
 }
 .new-horizons-footer {
-	position:absolute;
 	top:1072px;
 	left:72px;
 	width:928px;
-	height:auto;
 }
 .viking-chart {
-	position:absolute;
 	top:8px;
 	right:44px;
 	width:400px;
-	height:auto;	
 }
 .probes-main-ribbon-footer {
-	position:absolute;
 	top:766px;
 	right:-46px;
 	width:1051px;
-	height:auto;	
 }
