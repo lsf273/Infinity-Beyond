@@ -6,28 +6,28 @@
 	background-position:center; 
 }
 .probes-section {
-	background-image:url(../img/probes-bkg.jpg);
+	background-image:url(../img-probes/probes-bkg.jpg);
 }
 .mars-express-section {
-	background-image:url(../img/mars-express-bkg.jpg);
+	background-image:url(../img-probes/mars-express-bkg.jpg);
 }
 .opportunity-section {
-	background-image:url(../img/opportunity-bkg.jpg);
+	background-image:url(../img-probes/opportunity-bkg.jpg);
 }
 .galileo-section {
-	background-image:url(../img/galileo-bkg.jpg);
+	background-image:url(../img-probes/galileo-bkg.jpg);
 }
 .near-section {
-	background-image:url(../img/near-bkg.jpg);
+	background-image:url(../img-probes/near-bkg.jpg);
 }
 .viking-section {
-	background-image:url(../img/viking-bkg.jpg);
+	background-image:url(../img-probes/viking-bkg.jpg);
 }
 .horizons-section {
-	background-image:url(../img/horizons-bkg.jpg);
+	background-image:url(../img-probes/horizons-bkg.jpg);
 }
 .voyager-section {
-	background-image:url(../img/voyager-bkg.jpg);
+	background-image:url(../img-probes/voyager-bkg.jpg);
 }
 
 .mars-express-ribbon-1, .near-ribbon-1, .new-horizons-ribbon-1, .mars-express-ribbon-2, .near-ribbon-2, .new-horizons-ribbon-2,

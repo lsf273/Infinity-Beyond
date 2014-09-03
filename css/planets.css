@@ -1,30 +1,30 @@
 
 #sun {
-	background-image:url(../img/sun-bkg.jpg);
+	background-image:url(../img-planets/sun-bkg.jpg);
 }
 #mercury {
-	background-image:url(../img/mercury-bkg.jpg);
+	background-image:url(../img-planets/mercury-bkg.jpg);
 }
 #venus {
-	background-image:url(../img/venus-bkg.jpg);
+	background-image:url(../img-planets/venus-bkg.jpg);
 }
 #earth {
-	background-image:url(../img/earth-bkg.jpg);
+	background-image:url(../img-planets/earth-bkg.jpg);
 }
 #mars {
-	background-image:url(../img/mars-bkg.jpg);
+	background-image:url(../img-planets/mars-bkg.jpg);
 }
 #jupiter {
-	background-image:url(../img/jupiter-bkg.jpg);
+	background-image:url(../img-planets/jupiter-bkg.jpg);
 }
 #saturn {
-	background-image:url(../img/saturn-bkg.jpg);
+	background-image:url(../img-planets/saturn-bkg.jpg);
 }
 #uranus {
-	background-image:url(../img/uranus-bkg.jpg);
+	background-image:url(../img-planets/uranus-bkg.jpg);
 }
 #neptune {
-	background-image:url(../img/neptune-bkg.jpg);
+	background-image:url(../img-planets/neptune-bkg.jpg);
 }
 .temp-right {
 	position:absolute;

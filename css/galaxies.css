@@ -7,22 +7,22 @@
 	background-position:center; 
 }
 .galaxy-section {
-	background-image:url(../img/galaxy-bkg.jpg);
+	background-image:url(../img-galaxies/galaxy-bkg.jpg);
 }
 .spiral-section {
-	background-image:url(../img/spiral-bkg.jpg);
+	background-image:url(../img-galaxies/spiral-bkg.jpg);
 }
 .barred-section {
-	background-image:url(../img/barred-bkg.jpg);
+	background-image:url(../img-galaxies/barred-bkg.jpg);
 }
 .cluster-section {
-	background-image:url(../img/clusters-bkg.jpg);
+	background-image:url(../img-galaxies/clusters-bkg.jpg);
 }
 .elliptical-section {
-	background-image:url(../img/elliptical-bkg.jpg);
+	background-image:url(../img-galaxies/elliptical-bkg.jpg);
 }
 .irregular-section {
-	background-image:url(../img/irregular-bkg.jpg);	
+	background-image:url(../img-galaxies/irregular-bkg.jpg);	
 }
 .ribbon-right, .ribbon-left, .left-ribbon-top, .left-ribbon-bottom, .elliptical-footer-ribbon1, .irregular-footer-ribbon1 {
 	position:absolute;
@@ -48,12 +48,12 @@
 	background-color:#FFF;	
 }
 .left-ribbon-top {
-	left:-55px;
+	left:-35px;
 	top:0;
 	width:420px;
 }
 .left-ribbon-bottom {
-	left:-47px;
+	left:-34px;
 	top:100px;
 	width:414px;
 }
