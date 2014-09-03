@@ -1,6 +1,17 @@
 
  $(document).ready(function() {
+	 
 	 var $contactButton = $('.contact-btn');
+	 var $planet = $('.planet');
+	 var $shuttle = $('.shuttle');
+	 var $greyMatter = $('.greyMatter');
+	 var $nebulas = $('.nebulas');
+	 var $galaxies = $('.galaxies');
+	 var $planetUnderline = $('.planet-underline');
+	 var $shuttleUnderline = $('.shuttle-underline');
+	 var $cloudUnderline = $('.cloud-underline');
+	 var $nebulaUnderline = $('.nebula-underline');
+	 var $galaxyUnderline = $('.galaxy-underline');
 
 	 //HomePage
 	 $contactButton.hover(function() {
@@ -12,48 +23,48 @@
 				width: 90, 
 			}, 500);
 	  });
-	  $('.planet').hover(function() {
-			$('.planet-underline').animate({
+	  $planet.hover(function() {
+			$planetUnderline.animate({
 				width: '220',  
 	        }, 500);
 		 }, function() {
-			$('.planet-underline').animate({
+			$planetUnderline.animate({
 				width: '200', 
 			}, 500);
 	  	});
-	  $('.shuttle').hover(function() {
-			$('.shuttle-underline').animate({
+	  $shuttle.hover(function() {
+			$shuttleUnderline.animate({
 				width: '220',  
 	        }, 500);
 		 }, function() {
-			$('.shuttle-underline').animate({
+			$shuttleUnderline.animate({
 				width: '200', 
 			}, 500);
 	  });
-	  $('.greyMatter').hover(function() {
-			$('.cloud-underline').animate({
+	  $greyMatter.hover(function() {
+			$cloudUnderline.animate({
 				width: '220',  
 	        }, 500);
 		 }, function() {
-			$('.cloud-underline').animate({
+			$cloudUnderline.animate({
 				width: 200, 
 			}, 500);
 	  	});
-	  $('.nebulas').hover(function() {
-			$('.nebula-underline').animate({
+	  $nebulas.hover(function() {
+			$nebulaUnderline.animate({
 				width: '220',  
 	        }, 500);
 		}, function() {
-			$('.nebula-underline').animate({
+			$nebulaUnderline.animate({
 				width: '200', 
 			}, 500);
 	  	});
-	  $('.galaxies').hover(function() {
-			$('.galaxy-underline').animate({
+	  $galaxies.hover(function() {
+			$galaxyUnderline.animate({
 				width: '220',  
 	        }, 500);
 		 },function() {
-			$('.galaxy-underline').animate({
+			$galaxyUnderline.animate({
 				width: '200', 
 			}, 500);
 	  });
