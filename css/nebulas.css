@@ -79,7 +79,13 @@
 	top:446px;
 	width:236px;
 }
-.crab-footer-ribbon, .eagle-graph-1, .eagle-footer-ribbon, .horsehead-footer-ribbon, .messier78-ribbon-1, .messier78-ribbon-2, .messier-footer-ribbon {
+.crab-footer-ribbon, 
+.eagle-graph-1,
+.eagle-footer-ribbon, 
+.horsehead-footer-ribbon, 
+.messier78-ribbon-1, 
+.messier78-ribbon-2, 
+.messier-footer-ribbon {
 	position:absolute;
 	height:auto;	
 }

@@ -57,6 +57,11 @@ header a, a:visited {
 	top:-50px;
 	left:6%;
 }
+/* FIXME
+.planet:hover ~ .planet-underline {
+	width: 220px;
+}
+*/
 .shuttle-wrap {
 	top:-125px;
 	left:41%;

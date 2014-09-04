@@ -1,9 +1,10 @@
 
  $(document).ready(function() {
 	 
+	 var $container = $('#page-container');
 	 var $contactButton = $('.contact-btn');
-	 var $planet = $('.planet');
-	 var $shuttle = $('.shuttle');
+	 var $planet = $container.find('.planet');
+	 var $shuttle = $container.find('.shuttle');
 	 var $greyMatter = $('.greyMatter');
 	 var $nebulas = $('.nebulas');
 	 var $galaxies = $('.galaxies');
