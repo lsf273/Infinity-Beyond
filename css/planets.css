@@ -25,68 +25,64 @@
 }
 #neptune {
 	background-image:url(../img-planets/neptune-bkg.jpg);
+} 
+	
+.temp-right,
+.ruler-right,
+.orbit-right,
+.temp-left,
+.ruler-left,
+.orbit-left
+{
+	position:absolute;
+	height:auto;
+	z-index:2;
 }
 .temp-right {
-	position:absolute;
 	top:13px;
 	left:535px;	
-	z-index:2;
 	width:101px; 
-	height:auto;
 }
 .ruler-right {
-	position:absolute;
 	top:10px;
 	left:666px;	
-	z-index:2;
 	width:80px;
-	height:auto;
 }
 .orbit-right {
-	position:absolute;
 	top:30px;
 	left:770px;	
-	z-index:2;
 	width:129px;
-	height:auto; 
 }
 .temp-left {
-	position:absolute;
 	top:14px;
 	left:50px;	
-	z-index:2;
 	width:101px; 
-	height:auto;
 }
 .ruler-left {
-	position:absolute;
 	top:10px;
 	left:175px;	
-	z-index:2;
 	width:80px;
-	height:auto;
 }
 .orbit-left {
-	position:absolute;
 	top:30px;
 	left:280px;	
-	z-index:2;
 	width:129px;
-	height:auto; 
+}
+.mercury-core,
+.earth-core,
+.venus-core  {
+	position:absolute;
+	height:auto;
 }
 .mercury-core {
-	position:absolute;
 	top:307px;
 	left:60px;	
 	width:800px;
-	height:auto;
 }
 .earth-core {
-	position:absolute;
 	top:747px;
 	left:60px;	
 	width:800px;
-	height:auto;
 }
 .mercury-footer-ribbon {
 	position:absolute;
@@ -96,11 +92,9 @@
 	height:200px;	
 }
 .venus-core {
-	position:absolute;
 	top:715px;
 	left:60px;	
 	width:800px;
-	height:auto;
 }
 .moon-info-wrap {
 	opacity: 0.7;
@@ -145,37 +139,30 @@
 	top:20px;
 	left:112px;	/* SHRINK */
 }
-.moon-copy-wrap {
-	position:absolute;
-	top:13px;
-	left:15px;
-	width:207px;
-	height:131px;
-	z-index:50;	
-}
-.moon-copy-wrap-2 {
-	position:absolute;
-	top:13px;
-	left:257px;
-	width:207px;
-	height:131px;
-	z-index:50;		
-}
-.moon-copy-wrap-3 {
-	position:absolute;
-	top:13px;
-	left:498px;
-	width:207px;
-	height:131px;
-	z-index:50;		
-}
+.moon-copy-wrap, 
+.moon-copy-wrap-2, 
+.moon-copy-wrap-3, 
 .moon-copy-wrap-4 {
 	position:absolute;
+	z-index:50;
+	width:207px;
+	height:131px;	
+}
+.moon-copy-wrap {
+	top:13px;
+	left:15px;
+}
+.moon-copy-wrap-2 {
+	top:13px;
+	left:257px;
+}
+.moon-copy-wrap-3 {
+	top:13px;
+	left:498px;
+}
+.moon-copy-wrap-4 {
 	top:13px;
 	right:13px;
-	width:207px;
-	height:131px;
-	z-index:50;		
 }
 .mercury-footer-ribbon {
 	position:absolute;
@@ -183,4 +170,105 @@
 	left:-44px;	
 	width:1049px;
 	height:200px;
+}
+.sun-fact-top, 
+.sun-fact-bottom, 
+.mercury-fact-top, 
+.mercury-fact-bottom,
+.venus-fact-top,
+.venus-fact-bottom,
+.earth-fact-top,
+.earth-fact-bottom,
+.mars-fact-top,
+.mars-fact-bottom,
+.saturn-fact-top,
+.saturn-fact-bottom,
+.uranus-fact-top,
+.uranus-fact-bottom,
+.neptune-fact-top,
+.neptune-fact-bottom  {
+	position:absolute;
+	z-index:2;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+	font-weight:bold;
+}
+.sun-fact-top {
+	top:829px;
+	left:222px;
+	font-size:18px;
+}
+.sun-fact-bottom {
+	top:890px;
+	left:297px;
+	font-size:16px;
+}
+.mercury-fact-top {
+	top:741px;
+	left:246px;
+	font-size:18px;
+}
+.mercury-fact-bottom {
+	top:801px;
+	left:305px;
+	font-size:16px;
+}
+.venus-fact-top {
+	top:1195px;
+	left:201px;
+	font-size:18px;
+}
+.venus-fact-bottom {
+	top:1254px;
+	left:278px;
+	font-size:16px;
+}
+.earth-fact-top {
+	top:1195px;
+	left:268px;
+	font-size:18px;
+}
+.earth-fact-bottom {
+	top:1254px;
+	left:314px;
+	font-size:16px;
+}
+.mars-fact-top {
+	top:1195px;
+	left:240px;
+	font-size:18px;
+}
+.mars-fact-bottom {
+	top:1254px;
+	left:282px;
+	font-size:16px;
+}
+.saturn-fact-top {
+	top:1302px;
+	left:240px;
+	font-size:18px;
+}
+.saturn-fact-bottom {
+	top:1362px;
+	left:282px;
+	font-size:16px;
+}
+.uranus-fact-top {
+	top:1197px;
+	left:195px;
+	font-size:18px;
+}
+.uranus-fact-bottom {
+	top:1257px;
+	left:282px;
+	font-size:16px;
+}
+.neptune-fact-top {
+	top:1197px;
+	left:195px;
+	font-size:18px;
+}
+.neptune-fact-bottom {
+	top:1254px;
+	left:318px;
+	font-size:16px;
 }

@@ -1,11 +1,16 @@
 <?php
-  $link = mysql_connect('loganfetter.com','lsf273','A)x!~oa#Aoks') or die (mysql_error($link));
-  $db = mysql_select_db('lsf273_infinity-contact',$link) or die (mysql_error($link));
+  // echo phpinfo();
+  $mysqli = mysqli_connect('localhost','lsf273_infinity','{tg#r5VT=8nU', 'lsf273_infinity-contact');
+  if ($mysqli->connect_errno) {
+    echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+  }
+  echo $mysqli->host_info . "\n";
   
   if($_SERVER['REQUEST_METHOD'] =='POST') {
 	 
   $Name  = $_POST['name'];
   $Email   = $_POST['email'];
+  $Subject   = $_POST['subject'];
   $Message       = $_POST['message'];
   
   $query = "INSERT INTO contact(Name, Email, Message)
