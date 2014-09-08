@@ -17,7 +17,16 @@
 .lightspeed-section {
 	background-image:url(../img-grey-matter/lightspeed-bkg.jpg);
 }
-.grey-main-footer-ribbon, .black-hole-footer, .black-hole-chart, .spectral-chart, .spectral-footer-ribbon, .spectral-ribbon-1, .spectral-ribbon-2, .spectral-ribbon-3, .light-chart, .light-chart-2  {
+.grey-main-footer-ribbon, 
+.black-hole-footer, 
+.black-hole-chart, 
+.spectral-chart, 
+.spectral-footer-ribbon, 
+.spectral-ribbon-1, 
+.spectral-ribbon-2, 
+.spectral-ribbon-3, 
+.light-chart, 
+.light-chart-2  {
 	position:absolute;
 	height:auto;		
 }
@@ -47,7 +56,9 @@
 	left:-34px;
 	width:1047px;
 }
-.spectral-ribbon-1, .spectral-ribbon-2, .spectral-ribbon-3 {
+.spectral-ribbon-1, 
+.spectral-ribbon-2, 
+.spectral-ribbon-3 {
 	width:380px;
 }
 .spectral-ribbon-1 {
@@ -87,4 +98,60 @@
 	top:796px;
 	left:20px;
 	z-index:1;	
+}
+.quasar-fact-top, 
+.quasar-fact-bottom, 
+.blackhole-fact-top, 
+.blackhole-fact-bottom, 
+.spectral-fact-footer, 
+.spectral-fact-top, 
+.spectral-fact-middle, 
+.spectral-fact-bottom, 
+.light-fact-top  {
+	position:absolute;
+	z-index:2;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+	font-weight:bold;
+}
+.quasar-fact-top {
+	top:817px;
+	left:213px;
+	font-size:18px;
+}
+.quasar-fact-bottom {
+	top:880px;
+	left:251px;
+	font-size:16px;
+}
+.blackhole-fact-top {
+	top:901px;
+	left:47px;
+	font-size:18px;
+}
+.blackhole-fact-bottom {
+	top:968px;
+	left:168px;
+	font-size:16px;
+}
+.spectral-fact-top {
+	top:36px;
+	left:118px;
+}
+.spectral-fact-middle {
+	top:142px;
+	left:118px;
+}
+.spectral-fact-bottom {
+	top:251px;
+	left:118px;
+}
+.spectral-fact-footer {
+	top:1308px;
+	left:331px;
+	font-size:18px;
+}
+.light-fact-top  {
+	top:1308px;
+	left:354px;
+	font-size:18px;
 }
