@@ -4,6 +4,19 @@ body {
 	padding:0;	
 	position:relative;
 }
+.nav-wrap {
+	position:fixed;
+	top:105px;
+	width:150px;
+	height:265px;
+	text-align:center;
+	margin-left:10%;
+	z-index:2;
+}
+.nav-btn {
+	margin-bottom:10px;	
+	display:block;
+}
 section {
 	height:100% !important;	
 	/*min-height: 100vh;*/
@@ -219,7 +232,7 @@ section {
 .facts-list {
 	color:#FFF;
 	line-height:1.6em;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:Arial, elvetica, sans-serif;
 	font-weight:bold;
 	padding-left:25px;
 	text-decoration:show !important;
@@ -238,3 +251,4 @@ section {
 	width:1049px;
 	height:200px;
 }
+
