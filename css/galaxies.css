@@ -48,12 +48,12 @@
 	background-color:#FFF;	
 }
 .left-ribbon-top {
-	left:-35px;
+	left:-56px;
 	top:0;
 	width:420px;
 }
 .left-ribbon-bottom {
-	left:-34px;
+	left:-47px;
 	top:100px;
 	width:414px;
 }
@@ -92,3 +92,21 @@
 	top:845px;
 	left:288px;		
 }
+.galaxy-fact-top, .galaxy-fact-bottom  {
+	position:absolute;
+	z-index:2;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+	font-weight:bold;
+}
+.galaxy-fact-top {
+	top:822px;
+	left:249px;
+	font-size:18px;
+}
+.galaxy-fact-bottom {
+	top:886px;
+	left:417px;
+	font-size:16px;
+}
+
+

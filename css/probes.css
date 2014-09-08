@@ -1,4 +1,11 @@
-.probes-section, .mars-express-section, .opportunity-section, .galileo-section, .near-section, .viking-section, .horizons-section, .voyager-section {
+.probes-section, 
+.mars-express-section, 
+.opportunity-section, 
+.galileo-section, 
+.near-section, 
+.viking-section, 
+.horizons-section, 
+.voyager-section {
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -30,38 +37,66 @@
 	background-image:url(../img-probes/voyager-bkg.jpg);
 }
 
-.mars-express-ribbon-1, .near-ribbon-1, .new-horizons-ribbon-1, .mars-express-ribbon-2, .near-ribbon-2, .new-horizons-ribbon-2,
-.mars-express-ribbon-3, .near-ribbon-3, .new-horizons-ribbon-3, .mars-express-footer-ribbon, .viking-footer-ribbon, .voyager-footer-ribbon,
-.mars-express-footer-ribbon-2, .viking-footer-ribbon-2, .voyager-footer-ribbon-2, .distances-driven, .galileo-footer-ribbon, .near-footer-ribbon,
-.new-horizons-footer, .viking-chart, .probes-main-ribbon-footer {
+.mars-express-ribbon-1, 
+.near-ribbon-1, 
+.new-horizons-ribbon-1, 
+.mars-express-ribbon-2, 
+.near-ribbon-2, 
+.new-horizons-ribbon-2,
+.mars-express-ribbon-3, 
+.near-ribbon-3, 
+.new-horizons-ribbon-3, 
+.mars-express-footer-ribbon, 
+.viking-footer-ribbon, 
+.voyager-footer-ribbon,
+.mars-express-footer-ribbon-2, 
+.viking-footer-ribbon-2, 
+.voyager-footer-ribbon-2, 
+.distances-driven, 
+.galileo-footer-ribbon, 
+.near-footer-ribbon,
+.new-horizons-footer, 
+.viking-chart, 
+.probes-main-ribbon-footer {
 	position:absolute;	
 	height:auto;
 }
 
-.mars-express-ribbon-1, .near-ribbon-1, .new-horizons-ribbon-1 {
+.mars-express-ribbon-1, 
+.near-ribbon-1, 
+.new-horizons-ribbon-1 {
 	top:-10px;
 	left:-32px;
 	width:460px;
 }
-.mars-express-ribbon-2, .near-ribbon-2, .new-horizons-ribbon-2 {
+.mars-express-ribbon-2, 
+.near-ribbon-2, 
+.new-horizons-ribbon-2 {
 	top:78px;
 	left:-32px;
 	width:460px;
 }
-.mars-express-ribbon-3, .near-ribbon-3, .new-horizons-ribbon-3 {
+.mars-express-ribbon-3, 
+.near-ribbon-3, 
+.new-horizons-ribbon-3 {
 	top:167px;
 	left:-32px;
 	width:460px;
 }
-.near-ribbon-3, .new-horizons-ribbon-3 {
+.near-ribbon-3, 
+.new-horizons-ribbon-3 {
 	left:-30px !important;	
 }
-.mars-express-footer-ribbon, .viking-footer-ribbon, .voyager-footer-ribbon {
+.mars-express-footer-ribbon, 
+.viking-footer-ribbon, 
+.voyager-footer-ribbon {
 	top:733px;
 	left:-36px;
 	width:1033px;
 }
-.mars-express-footer-ribbon-2, .viking-footer-ribbon-2, .voyager-footer-ribbon-2 {
+.mars-express-footer-ribbon-2, 
+.viking-footer-ribbon-2, 
+.voyager-footer-ribbon-2 {
 	top:867px;
 	right:-47px;
 	width:460px;
@@ -71,7 +106,8 @@
 	right:20px;
 	width:460px;
 }
-.galileo-footer-ribbon, .near-footer-ribbon {
+.galileo-footer-ribbon, 
+.near-footer-ribbon {
 	top:733px;
 	left:-36px;
 	width:1029px;
@@ -90,4 +126,145 @@
 	top:766px;
 	right:-46px;
 	width:1051px;
+}
+.probes-fact-top, 
+.probes-fact-bottom, 
+.mars-fact-top, 
+.mars-fact-middle, 
+.mars-fact-bottom, 
+.mars-fact-footer-top, 
+.mars-fact-footer-bottom, 
+.opportunity-fact-top, 
+.opportunity-fact-bottom, 
+.galileo-fact-top , 
+.galileo-fact-bottom, 
+.near-fact-top, 
+.near-fact-middle, 
+.near-fact-bottom, 
+.near-fact-footer-top, 
+.near-fact-footer-bottom, 
+.viking-fact-top, 
+.viking-fact-bottom, 
+.horizons-fact-top, 
+.horizons-fact-middle, 
+.horizons-fact-bottom, 
+.horizons-fact-footer, 
+.voyager-fact-top, 
+.voyager-fact-bottom  {
+	position:absolute;
+	z-index:2;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+	font-weight:bold;
+}
+.probes-fact-top {
+	top:838px;
+	left:183px;
+	font-size:18px;
+}
+.probes-fact-bottom {
+	top:900px;
+	left:271px;
+	font-size:16px;
+}
+.mars-fact-top {
+	top:20px;
+	left:14px;
+	font-size:16px;
+}
+.mars-fact-middle {
+	top:108px;
+	left:14px;
+	font-size:16px;
+}
+.mars-fact-bottom {
+	top:194px;
+	left:14px;
+	font-size:16px;
+}
+.mars-fact-footer-top, 
+.opportunity-fact-top {
+	top:790px;
+	right:20px;
+	font-size:18px;
+}
+.mars-fact-footer-bottom, 
+.opportunity-fact-bottom {
+	top:896px;
+	right:12px;
+	font-size:16px;
+}
+.galileo-fact-top  {
+	top:796px;
+	right:74px;
+	font-size:18px;
+}
+.galileo-fact-bottom  {
+	top:865px;
+	right:19px;
+	font-size:16px;
+}
+.near-fact-top {
+	top:20px;
+	left:-9px;
+	font-size:16px;
+}
+.near-fact-middle {
+	top:108px;
+	left:-9px;
+	font-size:16px;
+}
+.near-fact-bottom {
+	top:194px;
+	left:-9px;
+	font-size:16px;
+}
+.near-fact-footer-top {
+	top:795px;
+	right:-2px;
+	font-size:18px;
+}
+.near-fact-footer-bottom {
+	top:865px;
+	right:0px;
+	font-size:16px;
+}
+.viking-fact-top {
+	top:791px;
+	right:19px;
+	font-size:18px;
+}
+.viking-fact-bottom {
+	top:896px;
+	right:0px;
+	font-size:16px;
+}
+.horizons-fact-top {
+	top:20px;
+	left:-9px;
+	font-size:16px;
+}
+.horizons-fact-middle {
+	top:108px;
+	left:-9px;
+	font-size:16px;
+}
+.horizons-fact-bottom {
+	top:194px;
+	left:-9px;
+	font-size:16px;
+}
+.horizons-fact-footer {
+	top:1117px;
+	right:-20px;
+	font-size:18px;
+}
+.voyager-fact-top {
+	top:792px;
+	right:21px;
+	font-size:18px;	
+}
+.voyager-fact-bottom {
+	top:893px;
+	right:32px;
+	font-size:18px;	
 }
