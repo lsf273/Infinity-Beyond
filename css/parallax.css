@@ -10,7 +10,7 @@ body {
 	width:150px;
 	height:265px;
 	text-align:center;
-	margin-left:10%;
+	margin-left:3.5%;
 	z-index:2;
 }
 .nav-btn {
@@ -250,5 +250,9 @@ section {
 	left:-44px;	
 	width:1049px;
 	height:200px;
+}
+#name {
+	resize:none;
+}
 }
 
