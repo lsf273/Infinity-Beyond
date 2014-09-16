@@ -71,6 +71,9 @@ p {
 	top:740px;
 	left:0;	
 }
+.pointer {
+	cursor:pointer;	
+}
 
 /*****
  * Start Twinkling Stars
@@ -120,5 +123,4 @@ p {
 }
 #message {
 	resize:none;
-}
 }

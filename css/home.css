@@ -253,7 +253,7 @@ header a, a:visited {
 }
 .elegant-aero input[type="text"], .elegant-aero input[type="email"] {
     color: #888;
-    width: 218px;
+    width: 100%;
     padding: 8px 0px 5px 8px;
     margin-top: 2px;
     margin-right: 6px;
@@ -267,7 +267,7 @@ header a, a:visited {
 }
 .elegant-aero textarea, .elegant-aero select {
 	color: #888;
-    width: 323px;
+    width: 100%;
     padding: 8px 0px 5px 8px;
     margin-top: 2px;
     margin-right: 6px;
@@ -288,7 +288,6 @@ header a, a:visited {
    -moz-appearance: none;
     text-indent: 0.01px;
     text-overflow: '';
-    width: 200px;
 }
 .elegant-aero .button{
     padding: 10px 30px 10px 30px;
