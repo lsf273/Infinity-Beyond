@@ -36,8 +36,8 @@ header a, a:visited {
 }
 .logo {
 	position:absolute;
-	top:50px;
-	left:0;	
+	top:25px;
+	left:50px;	
 	z-index:6;
 }
 .page-wrap {
@@ -54,7 +54,7 @@ header a, a:visited {
 	position:absolute;
 }
 .planet-wrap {
-	top:-50px;
+	top:-10px;
 	left:6%;
 }
 /* FIXME
@@ -63,19 +63,19 @@ header a, a:visited {
 }
 */
 .shuttle-wrap {
-	top:-125px;
+	top:-85px;
 	left:41%;
 }
 .cloud-wrap {
-	top:145px;
+	top:153px;
 	left:24%;
 }
 .nebula-wrap {
-	top:120px;
+	top:129px;
 	left:59%;
 }
 .galaxy-wrap {
-	top:-31px;
+	top:11px;
 	left:76%;
 }
 .navStyle {

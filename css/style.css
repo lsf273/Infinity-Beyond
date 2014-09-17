@@ -124,3 +124,27 @@ p {
 #message {
 	resize:none;
 }
+.top-arrow-down {
+	position:absolute;
+	top:35px;
+	left:-77px;
+	z-index:2;
+}
+.bottom-arrow-up {
+	position:absolute;
+	top:35px;
+	left:-77px;
+	z-index:2;
+}
+.up-arrow {
+	position:absolute;
+	top:35px;
+	left:-77px;
+	z-index:2;
+}
+.down-arrow {
+	position:absolute;
+	top:95px;
+	left:-75px;
+	z-index:2;
+}
